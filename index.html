@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Responsive landing page</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo" style="font-size: 2rem;">Nuri EREN</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#aboutme" class="nav__link active-link">About Me</a></li>
+                        <li class="nav__item"><a href="#compotencies" class="nav__link">Compotencies</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== About ME ==========-->
+            <section class="home" id="aboutme">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="img/main.png" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">User Friendly Responsive Webpages</h1>
+                        <p class="home__description">I am creating UI/UX design with user friendly responsive webpages. As I can do frontend designs, I also offer backend solutions.</p>
+                        <a href="#contact" class="button">Contact Me</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== Compotencies ==========-->
+            <section class="share section bd-container" id="compotencies">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">As a Fullstack developer I can use: </h2>
+                        <p class="share__description"><li>Python and Django </li> <li>Html Css Js</li> <li>React</li> <li>React-Native</li></p>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="img/competence.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== Projects ==========-->
+            <section class="decoration section bd-container" id="projects">
+                <h2 class="section-title">Different Projects - Different Needs</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="img/react.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title" style="padding-top: 1rem;">Responsive Webpages - Html Css Js (React)</h3>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="img/blackcar.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title" style="padding-top: 5.5rem;">Car Racing Game - C#</h3>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="img/python.png" alt="" class="decoration__img">
+                        <h3 class="decoration__title">Backend Solutions - Python/Django</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== Contact ==========-->
+            <section class="accessory section bd-container" id="contact">
+                <h2 class="section-title">Contact İnfo</h2>
+
+                <div class="accessory__container bd-grid">
+                    <div class="accessory__content">
+                        <a href="#"><img src="img/instagram.png" alt="" class="accessory__img"></a>
+                        <h3 class="accessory__title">İnstagram</h3>
+                        <span class="accessory__category">For Fun</span>
+                    </div>
+
+                    <div class="accessory__content">
+                        <a href="#"><img src="img/twitter.png" alt="" class="accessory__img"></a>
+                        <h3 class="accessory__title">Twitter</h3>
+                        <span class="accessory__category">For Talk</span>
+                    </div>
+
+                    <div class="accessory__content">
+                        <a href="#"><img src="img/github.png" alt="" class="accessory__img"></a>
+                        <h3 class="accessory__title">GitHub</h3>
+                        <span class="accessory__category">For Work</span>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== Download Resume ==========-->
+            <section class="send section">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">Download Resume</h2>
+                        <p class="send__description">İf you want detailed look and further information please check my resume.</p>
+                            <div class="send__direction">
+                                <a href="#" class="button">Download Resume</a>
+                            </div>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="img/resume.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">My Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Pricing </a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">İnformations</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">About me</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-github '></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 Nuri EREN. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="main.js"></script>
+    </body>
+</html>
